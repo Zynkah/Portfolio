@@ -43,9 +43,13 @@ function App() {
               </CardActionArea>
               <CardContent>
                 <Divider />
+                <Typography>Final Fantasy X Fan Page built with</Typography>
+                <i class="fa-solid fa-n" />
+                <i class="fab fa-node-js" />
                 <Typography>
-                  Final Fantasy X Fan Page built with Next.js, Next UI and
-                  Material UI.
+                  Next.js, Node.js.
+                  <br />
+                  Designed with Next UI and Material UI.
                 </Typography>
               </CardContent>
               <CardActions>
@@ -81,9 +85,13 @@ function App() {
               </CardActionArea>
               <CardContent>
                 <Divider />
+                <Typography>Mock Maid Cafe Website built with </Typography>
+                <i class="fa-brands fa-react fa-spin" />
+                <i class="fa-brands fa-node" />
                 <Typography>
-                  Mock Maid Cafe Website built with React.js, Node.js and
-                  Bootstrap.
+                  React.js and Node.js.
+                  <br />
+                  Designed with Bootstrap.
                 </Typography>
               </CardContent>
               <CardActions>
