@@ -17,12 +17,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Zena's Portfolio</h1>
+        <Typography variant="h1">Zena's Portfolio</Typography>
       </header>
 
       <Box sx={{ flexGrow: 1, margin: "2rem" }}>
-        <h3>My Projects</h3>
-        <Grid container spacing={3}>
+        <Divider>My Projects</Divider>
+        <Grid container spacing={3} marginTop={3}>
           <Grid item xs={6}>
             <Card sx={{ backgroundColor: "#f5f5f5" }}>
               <CardActionArea>
@@ -101,9 +101,11 @@ function App() {
         </Grid>
       </Box>
 
-      <footer>
-        <h3>Links</h3>
-        <Grid container spacing={3}>
+      <footer>        
+        <Divider>
+            Links
+          </Divider>
+        <Grid container>
           <Grid item xs={6}>
             <a
               href="https://github.com/Zynkah"
