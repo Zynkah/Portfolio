@@ -1,8 +1,5 @@
 .App {
   text-align: center;
-}
-
-.App-header {
   background-color: #0c273d;
   min-height: 100vh;
   display: flex;
@@ -13,10 +10,44 @@
   color: white;
 }
 
+.App-header {
+  background-color: #051624;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 100%;
+}
+
 .App-link:hover {
   filter: blur(1px);
 }
 
 button:hover {
   color: #a3cbec;
+}
+
+a {
+  color: #a3cbec;
+  text-decoration: none;
+}
+
+a:hover {
+  color: indianred;
+}
+
+ul {
+display: inline-flex;
+list-style-type: none;
+}
+
+ul li {
+  padding: 5px;
+}
+
+footer {
+  background-color: #051624;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 100%;
 }
