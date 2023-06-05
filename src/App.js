@@ -1,5 +1,5 @@
 import "./App.css";
-import '@fontsource/roboto/300.css';
+import "@fontsource/roboto/300.css";
 import * as React from "react";
 import Box from "@mui/material/Box";
 import {
@@ -41,10 +41,25 @@ function App() {
                     alt="Final fantasy x"
                   />
                 </Link>
+                <Box
+                  sx={{
+                    position: "absolute",
+                    bottom: 0,
+                    left: 0,
+                    width: "100%",
+                    bgcolor: "rgba(0, 0, 0, 0.34)",
+                    color: "white",
+                    padding: "2px",
+                  }}
+                >
+                  <Typography variant="subtitle2">Click Image to View</Typography>
+                </Box>
               </CardActionArea>
               <CardContent>
                 <Divider />
-                <Typography variant="h6">Final Fantasy X Fan Page built with</Typography>
+                <Typography variant="h6">
+                  Final Fantasy X Fan Page built with
+                </Typography>
                 <i class="fa-solid fa-n" />
                 <span style={{ marginLeft: "10px" }}></span>
                 <i class="fab fa-node-js" />
@@ -73,7 +88,7 @@ function App() {
           <Grid item xs={6}>
             <Card sx={{ backgroundColor: "#f5f5f5" }}>
               <CardActionArea>
-                <a
+                <Link
                   className="App-link"
                   href="https://maid-cafe.vercel.app/"
                   target="_blank"
@@ -85,11 +100,26 @@ function App() {
                     image="/img/Cafe.png"
                     alt="Final fantasy x"
                   />
-                </a>
+                </Link>
+                <Box
+                  sx={{
+                    position: "absolute",
+                    bottom: 0,
+                    left: 0,
+                    width: "100%",
+                    bgcolor: "rgba(0, 0, 0, 0.34)",
+                    color: "white",
+                    padding: "2px",
+                  }}
+                >
+                  <Typography variant="subtitle2">Click Image to View</Typography>
+                </Box>
               </CardActionArea>
               <CardContent>
                 <Divider />
-                <Typography variant="h6">Mock Maid Cafe Website built with </Typography>
+                <Typography variant="h6">
+                  Mock Maid Cafe Website built with{" "}
+                </Typography>
                 <i class="fa-brands fa-react fa-spin" />
                 <span style={{ marginLeft: "10px" }}></span>
                 <i class="fa-brands fa-node" />

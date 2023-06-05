@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #0c273d;
+  background-image: linear-gradient(salmon, white);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@
 }
 
 .App-header {
-  background-color: #051624;
+  background-image: url('/public/img/Banner.png');
   align-items: center;
   justify-content: center;
   color: white;
@@ -32,11 +32,11 @@ a {
 }
 
 a:hover {
-  color: indianred;
+  color: #a3cbec;
 }
 
 footer {
-  background-color: #051624;
+  background-image: url('/public/img/Banner.png');
   align-items: center;
   justify-content: center;
   color: white;
