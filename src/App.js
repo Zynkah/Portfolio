@@ -1,4 +1,5 @@
 import "./App.css";
+import '@fontsource/roboto/300.css';
 import * as React from "react";
 import Box from "@mui/material/Box";
 import {
@@ -43,11 +44,11 @@ function App() {
               </CardActionArea>
               <CardContent>
                 <Divider />
-                <Typography>Final Fantasy X Fan Page built with</Typography>
+                <Typography variant="h6">Final Fantasy X Fan Page built with</Typography>
                 <i class="fa-solid fa-n" />
                 <span style={{ marginLeft: "10px" }}></span>
                 <i class="fab fa-node-js" />
-                <Typography>
+                <Typography variant="subtitle2">
                   Next.js, Node.js.
                   <br />
                   Designed with Next UI and Material UI.
@@ -88,11 +89,11 @@ function App() {
               </CardActionArea>
               <CardContent>
                 <Divider />
-                <Typography>Mock Maid Cafe Website built with </Typography>
+                <Typography variant="h6">Mock Maid Cafe Website built with </Typography>
                 <i class="fa-brands fa-react fa-spin" />
                 <span style={{ marginLeft: "10px" }}></span>
                 <i class="fa-brands fa-node" />
-                <Typography>
+                <Typography variant="subtitle2">
                   React.js and Node.js.
                   <br />
                   Designed with Bootstrap.
