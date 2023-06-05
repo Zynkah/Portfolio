@@ -27,7 +27,7 @@ function App() {
           <Grid item xs={6}>
             <Card sx={{ backgroundColor: "#f5f5f5" }}>
               <CardActionArea>
-                <a
+                <Link
                   className="App-link"
                   href="https://final-fantasy-x.vercel.app/"
                   target="_blank"
@@ -39,12 +39,13 @@ function App() {
                     image="/img/FFX.png"
                     alt="Final fantasy x"
                   />
-                </a>
+                </Link>
               </CardActionArea>
               <CardContent>
                 <Divider />
                 <Typography>Final Fantasy X Fan Page built with</Typography>
                 <i class="fa-solid fa-n" />
+                <span style={{ marginLeft: "10px" }}></span>
                 <i class="fab fa-node-js" />
                 <Typography>
                   Next.js, Node.js.
@@ -53,15 +54,17 @@ function App() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <a
+                <Link
                   href="https://github.com/Zynkah/FFX_Next.js"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Button size="small" color="primary">
+                    <i class="fa-solid fa-code" />
+                    <span style={{ marginLeft: "10px" }}></span>
                     GitHub Source Code
                   </Button>
-                </a>
+                </Link>
               </CardActions>
             </Card>
           </Grid>
@@ -87,6 +90,7 @@ function App() {
                 <Divider />
                 <Typography>Mock Maid Cafe Website built with </Typography>
                 <i class="fa-brands fa-react fa-spin" />
+                <span style={{ marginLeft: "10px" }}></span>
                 <i class="fa-brands fa-node" />
                 <Typography>
                   React.js and Node.js.
@@ -101,6 +105,8 @@ function App() {
                   rel="noopener noreferrer"
                 >
                   <Button size="small" color="primary">
+                    <i class="fa-solid fa-code" />
+                    <span style={{ marginLeft: "10px" }}></span>
                     GitHub Source Code
                   </Button>
                 </a>
