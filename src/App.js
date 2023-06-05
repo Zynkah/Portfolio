@@ -10,6 +10,7 @@ import {
   CardActions,
   Button,
   Divider,
+  Link,
 } from "@mui/material";
 import Grid from "@mui/material/Grid";
 
@@ -101,28 +102,26 @@ function App() {
         </Grid>
       </Box>
 
-      <footer>        
-        <Divider>
-            Links
-          </Divider>
+      <footer>
+        <Divider>Links</Divider>
         <Grid container>
           <Grid item xs={6}>
-            <a
+            <Link
               href="https://github.com/Zynkah"
               target="_blank"
               rel="noopener noreferrer"
             >
-              GitHub
-            </a>
+              <i class="fa-brands fa-github fa-fade" />
+            </Link>
           </Grid>
           <Grid item xs={6}>
-            <a
+            <Link
               href="https://www.linkedin.com/in/zena-creps-ba3631232/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              LinkedIn
-            </a>
+              <i class="fa-brands fa-linkedin fa-fade" />
+            </Link>
           </Grid>
         </Grid>
       </footer>
