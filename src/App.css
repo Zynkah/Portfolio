@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0c273d;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -13,6 +13,10 @@
   color: white;
 }
 
-.App-link {
-  color: #ab8eda;
+.App-link:hover {
+  filter: blur(1px);
+}
+
+button:hover {
+  color: #78b6e9;
 }
