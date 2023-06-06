@@ -47,3 +47,8 @@ footer {
 .profile {
   border-radius: 2%;
 }
+
+i {
+color: indianred;
+filter: contrast(300%);
+}

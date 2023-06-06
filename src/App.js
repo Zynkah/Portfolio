@@ -49,13 +49,14 @@ function App() {
               <br />
               My goal for my future is to work as a backend web developer.
               Although I enjoy front end as well, and wouldn't mind going down
-              that route as well. I also would like to get better at game development. I really
-              want to make my own game one day, one like Hollow Knight. The team
-              that made that game are a huge inspiration in my life. I plan to
-              finish my degree soon, and continue my education to accomplish my
-              goals. Currently I am an backend web developer intern for{" "}
-              <i class="fa-solid fa-cookie" /> Danica's Custom Bakes. I would
-              like to level up to a junior developer in the near future!
+              that route as well. I also would like to get better at game
+              development. I really want to make my own game one day, one like
+              Hollow Knight. The team that made that game are a huge inspiration
+              in my life. I plan to finish my degree soon, and continue my
+              education to accomplish my goals. Currently I am an backend web
+              developer intern for <i class="fa-solid fa-cookie" /> Danica's
+              Custom Bakes. I would like to level up to a junior developer in
+              the near future!
             </Typography>
           </Grid>
 
@@ -203,7 +204,7 @@ function App() {
       <footer>
         <Divider>Links</Divider>
         <Grid container>
-          <Grid item xs={6}>
+          <Grid item xs={3}>
             <Link
               href="https://github.com/Zynkah"
               target="_blank"
@@ -212,13 +213,31 @@ function App() {
               <i class="fa-brands fa-github fa-fade" />
             </Link>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={3}>
             <Link
               href="https://www.linkedin.com/in/zena-creps-ba3631232/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i class="fa-brands fa-linkedin fa-fade" />
+            </Link>
+          </Grid>
+          <Grid item xs={3}>
+            <Link
+              href="https://www.twitch.tv/zynkah"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-twitch fa-fade" />
+            </Link>
+          </Grid>
+          <Grid item xs={3}>
+            <Link
+              href="https://zynkah-merch-2.creator-spring.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-solid fa-tag fa-fade" />
             </Link>
           </Grid>
         </Grid>
