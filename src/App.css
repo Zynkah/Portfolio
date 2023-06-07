@@ -11,7 +11,7 @@
 }
 
 .App-header {
-  background-color: indianred;
+  background-color: linear-gradient(indianred, salmon);
   align-items: center;
   justify-content: center;
   color: white;
@@ -51,5 +51,5 @@ footer {
 
 i {
 color: indianred;
-filter: contrast(300%);
+filter: contrast(200%);
 }
