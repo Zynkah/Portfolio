@@ -3,7 +3,7 @@ import Grid from "@mui/material/Grid";
 
 const Bio = () => {
   return (
-    <Container sx={{ margin: "2rem" }}>
+    <Container>
       <Divider>About Me</Divider>
       <Grid container spacing={3} marginTop={3}>
         <Grid item xs={8}>
