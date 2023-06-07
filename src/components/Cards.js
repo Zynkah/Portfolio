@@ -57,7 +57,7 @@ const Cards = () => {
               <span style={{ marginLeft: "10px" }}></span>
               <i class="fab fa-node-js" />
               <Typography variant="subtitle2">
-                Next.js, Node.js.
+                Next.js and Node.js.
                 <br />
                 Designed with Next UI and Material UI.
               </Typography>
