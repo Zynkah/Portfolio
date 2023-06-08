@@ -11,7 +11,6 @@ import {
 } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
-
 const Bio = () => {
   const [expanded, setExpanded] = React.useState(false);
 
@@ -25,7 +24,7 @@ const Bio = () => {
         <Grid item xs={8}>
           <Paper elevation={3} sx={{ padding: "10px" }}>
             <Accordion
-              expanded={expanded === "panel1"}
+              expanded={[expanded === "panel1", true]}
               onChange={handleChange("panel1")}
             >
               <AccordionSummary
@@ -38,12 +37,12 @@ const Bio = () => {
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
-                <Typography variant="body1">
+                <Typography>
                   I am a web developer, who loves{" "}
                   <i class="fa-brands fa-python" /> Python and{" "}
                   <i class="fa-brands fa-react fa-spin" /> React.js. I attended
-                  Nucamp Coding Bootcamp and graduated with Honors in both thier
-                  'Backend, SQL and DevOps with Python' certificate and their
+                  Nucamp Coding Bootcamp and graduated with honors in both the
+                  'Backend, SQL and DevOps with Python' certificate and the
                   'Full Stack Web and Mobile App Development' certificate. I
                   found in that year of studying that I really like working with
                   data. Therefore, I subscribed to a year of Datacamp and am
