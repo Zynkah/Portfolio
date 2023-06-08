@@ -9,8 +9,8 @@ import {
   AccordionDetails,
   AccordionSummary,
 } from "@mui/material";
-
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+
 
 const Bio = () => {
   const [expanded, setExpanded] = React.useState(false);
