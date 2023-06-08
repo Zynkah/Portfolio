@@ -33,7 +33,7 @@ const Bio = () => {
                 id="panel1bh-header"
               >
                 <Typography sx={{ width: "33%", flexShrink: 0 }}>
-                  Who I am
+                  <i class="fa-solid fa-dragon"></i> Who I am
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
@@ -61,7 +61,7 @@ const Bio = () => {
                 id="panel2bh-header"
               >
                 <Typography sx={{ width: "33%", flexShrink: 0 }}>
-                  Hobbies
+                  <i class="fa-solid fa-scroll"></i> Hobbies
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
@@ -88,7 +88,7 @@ const Bio = () => {
                 id="panel3bh-header"
               >
                 <Typography sx={{ width: "33%", flexShrink: 0 }}>
-                  My Goals
+                  <i class="fa-solid fa-wand-sparkles"></i> My Goals
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
