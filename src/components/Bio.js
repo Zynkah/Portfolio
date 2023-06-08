@@ -1,5 +1,6 @@
 import { Typography, Divider, Container } from "@mui/material";
 import Grid from "@mui/material/Grid";
+import Paper from "@mui/material/Paper";
 
 const Bio = () => {
   return (
@@ -7,6 +8,7 @@ const Bio = () => {
       <Divider>About Me</Divider>
       <Grid container spacing={3} marginTop={3}>
         <Grid item xs={8}>
+          <Paper elevation={3} sx={{padding:'10px'}}>
           <Typography variant="body1">
             Who am I? I am a web developer, who loves{" "}
             <i class="fa-brands fa-python" /> Python and{" "}
@@ -39,6 +41,7 @@ const Bio = () => {
             Custom Bakes. I would like to level up to a junior developer in the
             near future!
           </Typography>
+          </Paper>
         </Grid>
 
         <Grid item xs={3}>
@@ -46,8 +49,8 @@ const Bio = () => {
             className="profile"
             src="/img/Me.png"
             alt="Zena"
-            width="300"
-            height="391"
+            width="310"
+            height="404"
           />
         </Grid>
       </Grid>
