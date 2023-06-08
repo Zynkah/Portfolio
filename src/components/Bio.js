@@ -110,8 +110,8 @@ const Bio = () => {
             className="profile"
             src="/img/Me.png"
             alt="Zena"
-            width="310"
-            height="404"
+            width="300"
+            height="391"
           />
         </Grid>
       </Grid>
