@@ -21,7 +21,7 @@ const Bio = () => {
     <Container>
       <Divider>About Me</Divider>
       <Grid container spacing={3} marginTop={3}>
-        <Grid item xs={8}>
+        <Grid item xs={12} md={8}>
           <Paper elevation={3} sx={{ padding: "10px" }}>
             <Accordion
               expanded={[expanded === "panel1", true]}
@@ -110,14 +110,16 @@ const Bio = () => {
           </Paper>
         </Grid>
 
-        <Grid item xs={3}>
-          <img
-            className="profile"
-            src="/img/Me.png"
-            alt="Zena"
-            width="300"
-            height="391"
-          />
+        <Grid item xs={12} md={4}>
+          <Paper elevation={3} sx={{ padding: "10px" }}>
+            <img
+              className="profile"
+              src="/img/Me_2.jpg"
+              alt="Zena"
+              width="275"
+              height="307"
+            />
+          </Paper>
         </Grid>
       </Grid>
     </Container>
