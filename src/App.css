@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: linear-gradient(CadetBlue, white);
+  background-image: linear-gradient(salmon, white);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,7 +35,7 @@ a:hover {
 }
 
 footer {
-  background-color: DarkCyan;
+  background-color: salmon;
   align-items: center;
   justify-content: center;
   color: white;
@@ -48,6 +48,6 @@ footer {
 }
 
 i {
-color: DarkSlateGrey;
+color: indianred;
 filter: contrast(200%);
 }
