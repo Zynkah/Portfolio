@@ -18,7 +18,7 @@ const Cards = () => {
     <Box sx={{ flexGrow: 1, margin: "2rem" }}>
       <Divider>My Projects</Divider>
       <Grid container spacing={3} marginTop={3}>
-        <Grid item xs={6}>
+        <Grid item xs={12} md={6}>
           <Card sx={{ backgroundColor: "#f5f5f5" }}>
             <CardActionArea>
               <Link
@@ -78,7 +78,7 @@ const Cards = () => {
           </Card>
         </Grid>
 
-        <Grid item xs={6}>
+        <Grid item xs={12} md={6}>
           <Card sx={{ backgroundColor: "#f5f5f5" }}>
             <CardActionArea>
               <Link
