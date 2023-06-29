@@ -18,7 +18,7 @@ const Cards = () => {
   return (
     <Container sx={{ marginTop: "2rem" }}>
       <Divider>My Projects</Divider>
-      <Box sx={{ flexGrow: 1, margin: "2rem" }}>
+      <Box sx={{ flexGrow: 1}}>
         <Grid container spacing={3} marginTop={3}>
           <Grid item xs={12} md={6}>
             <Card sx={{ backgroundColor: "#f5f5f5" }}>

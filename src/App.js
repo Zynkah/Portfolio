@@ -1,10 +1,12 @@
-import "./App.css";
-import Footer from "./components/Footer";
+import "./styles/App.css";
 import "@fontsource/roboto/300.css";
 import * as React from "react";
 import Header from "./components/Header";
-import Cards from "./components/Cards";
+import Footer from "./components/Footer";
 import Bio from "./components/Bio";
+import Cards from "./components/Cards";
+import Certifications from "./components/Certifications";
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <Header />
       <Bio />
       <Cards />
+      <Certifications />
       <Footer />
     </div>
   );
