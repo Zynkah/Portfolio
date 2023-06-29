@@ -31,7 +31,7 @@ const Cards = () => {
                 >
                   <CardMedia
                     component="img"
-                    height="400"
+                    height="500"
                     image="/img/FFX.png"
                     alt="Final fantasy x"
                   />
@@ -93,7 +93,7 @@ const Cards = () => {
                 >
                   <CardMedia
                     component="img"
-                    height="400"
+                    height="500"
                     image="/img/Cafe.png"
                     alt="Final fantasy x"
                   />
