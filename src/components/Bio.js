@@ -111,13 +111,14 @@ const Bio = () => {
         </Grid>
 
         <Grid item xs={12} md={4}>
-          <Paper elevation={3} sx={{ padding: "10px" }}>
+          <Paper elevation={3} sx={{ padding: "15px" }}>
             <img
               className="profile"
               src="/img/Me_2.jpg"
               alt="Zena"
               width="275"
               height="307"
+              align="center"
             />
           </Paper>
         </Grid>

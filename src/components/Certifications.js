@@ -2,14 +2,9 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import {
   Card,
-  CardActionArea,
   CardContent,
   CardMedia,
-  Typography,
-  CardActions,
-  Button,
   Divider,
-  Link,
   Container,
 } from "@mui/material";
 import Grid from "@mui/material/Grid";
@@ -22,27 +17,27 @@ const Certifications = () => {
         <Grid container spacing={3} marginTop={3}>
           <Grid item xs={12} md={6}>
             <Card sx={{ backgroundColor: "#f5f5f5" }}>
-              <CardActionArea>
+              <CardContent>
                   <CardMedia
                     component="img"
                     height="700"
                     image="/img/Backend.png"
                     alt="backend"
                   />
-              </CardActionArea>
+              </CardContent>
             </Card>
           </Grid>
 
           <Grid item xs={12} md={6}>
             <Card sx={{ backgroundColor: "#f5f5f5" }}>
-              <CardActionArea>
+              <CardContent>
                   <CardMedia
                     component="img"
                     height="700"
                     image="/img/FullStack.png"
                     alt="Full Stack"
                   />
-              </CardActionArea>
+              </CardContent>
             </Card>
           </Grid>
         </Grid>
