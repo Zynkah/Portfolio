@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: linear-gradient(#404040, #B3B3B3);
+  background-color: #404040;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -34,8 +34,8 @@ footer {
   padding-bottom: 15px;
 }
 
-.profile {
-  border-radius: 2%;
+.image {
+  border-radius: 1%;
 }
 
 i {

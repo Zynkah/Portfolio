@@ -22,7 +22,10 @@ const Bio = () => {
       <Divider>About Me</Divider>
       <Grid container spacing={3} marginTop={3}>
         <Grid item xs={12} md={8}>
-          <Paper elevation={3} sx={{ padding: "10px" }}>
+          <Paper
+            elevation={3}
+            sx={{ padding: "10px", backgroundColor: "#282828" }}
+          >
             <Accordion
               expanded={[expanded === "panel1", true]}
               onChange={handleChange("panel1")}
@@ -111,9 +114,12 @@ const Bio = () => {
         </Grid>
 
         <Grid item xs={12} md={4}>
-          <Paper elevation={3} sx={{ padding: "15px" }}>
+          <Paper
+            elevation={3}
+            sx={{ padding: "15px", backgroundColor: "#282828" }}
+          >
             <img
-              className="profile"
+              className="image"
               src="/img/Me_2.jpg"
               alt="Zena"
               width="275"

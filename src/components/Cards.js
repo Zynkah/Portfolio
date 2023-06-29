@@ -18,10 +18,15 @@ const Cards = () => {
   return (
     <Container sx={{ marginTop: "2rem" }}>
       <Divider>My Projects</Divider>
-      <Box sx={{ flexGrow: 1}}>
+      <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={3} marginTop={3}>
           <Grid item xs={12} md={6}>
-            <Card sx={{ backgroundColor: "#f5f5f5" }}>
+            <Card
+              sx={{
+                backgroundColor: "#282828",
+                color: "white",
+              }}
+            >
               <CardActionArea>
                 <Link
                   className="App-link"
@@ -83,7 +88,7 @@ const Cards = () => {
           </Grid>
 
           <Grid item xs={12} md={6}>
-            <Card sx={{ backgroundColor: "#f5f5f5" }}>
+            <Card sx={{ backgroundColor: "#282828", color: "white" }}>
               <CardActionArea>
                 <Link
                   className="App-link"
