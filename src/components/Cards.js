@@ -72,7 +72,7 @@ const Cards = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button size="small" color="primary">
+                  <Button size="small" color="error">
                     <i class="fa-solid fa-code" />
                     <span style={{ marginLeft: "10px" }}></span>
                     GitHub Source Code
@@ -134,7 +134,7 @@ const Cards = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button size="small" color="primary">
+                  <Button size="small" color="error">
                     <i class="fa-solid fa-code" />
                     <span style={{ marginLeft: "10px" }}></span>
                     GitHub Source Code
