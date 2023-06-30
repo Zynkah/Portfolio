@@ -29,6 +29,7 @@ const Bio = () => {
             <Accordion
               expanded={[expanded === "panel1", true]}
               onChange={handleChange("panel1")}
+              sx={{ backgroundColor: "#343434", color: 'white' }}
             >
               <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
@@ -57,6 +58,7 @@ const Bio = () => {
             <Accordion
               expanded={expanded === "panel2"}
               onChange={handleChange("panel2")}
+              sx={{ backgroundColor: "#343434", color: 'white' }}
             >
               <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
@@ -84,6 +86,7 @@ const Bio = () => {
             <Accordion
               expanded={expanded === "panel3"}
               onChange={handleChange("panel3")}
+              sx={{ backgroundColor: "#343434", color: 'white' }}
             >
               <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
