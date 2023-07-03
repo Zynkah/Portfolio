@@ -3,12 +3,11 @@ import "@fontsource/roboto/300.css";
 import * as React from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Bio from "./components/Bio";
-import Cards from "./components/Cards";
-import Certifications from "./components/Certifications";
+import Bio from "./Bio";
+import Cards from "./Cards";
+import Certifications from "./Certifications";
 
-
-function App() {
+export default function App() {
   return (
     <div className="App">
       <Header />
@@ -19,5 +18,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

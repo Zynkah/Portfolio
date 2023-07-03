@@ -14,7 +14,7 @@ import {
 } from "@mui/material";
 import Grid from "@mui/material/Grid";
 
-const Cards = () => {
+export default function Cards() {
   return (
     <Container sx={{ marginTop: "2rem" }}>
       <Divider>My Projects</Divider>
@@ -153,5 +153,3 @@ const Cards = () => {
     </Container>
   );
 };
-
-export default Cards;

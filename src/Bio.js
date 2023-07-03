@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
-const Bio = () => {
+export default function Bio () {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleChange = (panel) => (event, isExpanded) => {
@@ -135,5 +135,3 @@ const Bio = () => {
     </Container>
   );
 };
-
-export default Bio;

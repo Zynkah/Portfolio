@@ -1,6 +1,6 @@
-// import { Typography } from "@mui/material";
 import { useSpring, animated } from "@react-spring/web";
 import { useState } from "react";
+import Nav from "./Navbar";
 
 const Header = () => {
   const [state, toggle] = useState(true);
@@ -21,10 +21,10 @@ const Header = () => {
             }),
           }}
         >
-          Zena Creps
+          Hello World!
         </animated.h1>
       </div>
-      {/* <Typography variant="h1">Zena Creps</Typography> */}
+      <Nav />
     </header>
   );
 };

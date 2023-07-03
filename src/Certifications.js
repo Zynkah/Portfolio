@@ -9,7 +9,7 @@ import {
 } from "@mui/material";
 import Grid from "@mui/material/Grid";
 
-const Certifications = () => {
+export default function Certifications() {
   return (
     <Container sx={{ marginTop: "2rem", marginBottom: "2rem" }}>
       <Divider>Certifications</Divider>
@@ -46,6 +46,4 @@ const Certifications = () => {
       </Box>
     </Container>
   );
-};
-
-export default Certifications;
+}
