@@ -1,6 +1,5 @@
 import { useSpring, animated } from "@react-spring/web";
 import { useState } from "react";
-import Nav from "./Navbar";
 
 const Header = () => {
   const [state, toggle] = useState(true);
@@ -24,7 +23,6 @@ const Header = () => {
           Hello World!
         </animated.h1>
       </div>
-      <Nav />
     </header>
   );
 };
