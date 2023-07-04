@@ -9,8 +9,9 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <div className="App">
-      <Header />
       <Nav />
+      <Header />
+      <h3>Welcome to my portfolio!</h3>
       <Tabs />
       <Footer />
     </div>
