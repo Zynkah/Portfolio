@@ -4,9 +4,9 @@ import * as React from "react";
 import Header from "./components/Header";
 import Nav from "./components/Navbar";
 import Footer from "./components/Footer";
-import Bio from "./Bio";
-import Cards from "./Cards";
-import Certifications from "./Certifications";
+import Bio from "./components/Bio";
+import Projects from "./components/Projects";
+import Certifications from "./components/Certifications";
 
 export default function App() {
   return (
@@ -14,7 +14,7 @@ export default function App() {
       <Header />
       <Nav />
       <Bio />
-      <Cards />
+      <Projects />
       <Certifications />
       <Footer />
     </div>
