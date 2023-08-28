@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
-export default function Bio () {
+export default function Bio() {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleChange = (panel) => (event, isExpanded) => {
@@ -29,7 +29,7 @@ export default function Bio () {
             <Accordion
               expanded={[expanded === "panel1", true]}
               onChange={handleChange("panel1")}
-              sx={{ backgroundColor: "#343434", color: 'white' }}
+              sx={{ backgroundColor: "#343434", color: "white" }}
             >
               <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
@@ -42,23 +42,27 @@ export default function Bio () {
               </AccordionSummary>
               <AccordionDetails>
                 <Typography>
-                  I am a web developer, who loves{" "}
+                  I'm a passionate web developer with a strong affection for{" "}
                   <i class="fa-brands fa-python" /> Python and{" "}
-                  <i class="fa-brands fa-react fa-spin" /> React.js. I attended
-                  Nucamp Coding Bootcamp and graduated with honors in both the
-                  'Backend, SQL and DevOps with Python' certificate and the
-                  'Full Stack Web and Mobile App Development' certificate. I
-                  found in that year of studying that I really like working with
-                  data. Therefore, I subscribed to a year of Datacamp and am
-                  working on becoming an expert in data analysis using Python,
-                  SQL and R.
+                  <i class="fa-brands fa-react fa-spin" /> React.js. My
+                  educational journey led me to the Nucamp Coding Bootcamp,
+                  where I excelled and proudly earned honors in both the
+                  'Backend, SQL and DevOps with Python' certificate as well as
+                  the 'Full Stack Web and Mobile App Development' certificate.
+                  During that transformative year of learning, I discovered a
+                  deep affinity for data-related work. This newfound interest
+                  prompted me to dive even deeper. I've embarked on a year-long
+                  subscription with Datacamp, dedicating myself to mastering
+                  data analysis using the power of Python, SQL, and R. My goal
+                  is to become an accomplished expert in this field, continually
+                  expanding my skill set.
                 </Typography>
               </AccordionDetails>
             </Accordion>
             <Accordion
               expanded={expanded === "panel2"}
               onChange={handleChange("panel2")}
-              sx={{ backgroundColor: "#343434", color: 'white' }}
+              sx={{ backgroundColor: "#343434", color: "white" }}
             >
               <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
@@ -71,22 +75,28 @@ export default function Bio () {
               </AccordionSummary>
               <AccordionDetails>
                 <Typography>
-                  When I am not working on my code, I am playing a{" "}
-                  <i class="fa-solid fa-gamepad" /> video game or watching
-                  anime. I am a huge fan of the Final Fantasy series, have been
-                  for as long as I can remember. I like action animes the most,
-                  but I enjoy a nice slice-of-life from time to time. I also
-                  really like working out in the gym. I like running the most, I
-                  just turn on some trap AMVs and go. I am also obsessed with{" "}
-                  <i class="fa-solid fa-cat" /> cats. I have too many cat
-                  figurines, and I adopt every stray cat in the nieghborhood.
+                  Beyond my coding endeavors, I find solace in a variety of
+                  hobbies. Video games <i class="fa-solid fa-gamepad" /> and
+                  anime captivate my leisure hours, offering both excitement and
+                  relaxation. I am an enthusiast of the Final Fantasy series, my
+                  admiration for it dates back as far as my memory goes. Another
+                  passion of mine lies in the realm of physical activity. I'm a
+                  dedicated gym-goer who particularly enjoys the liberating act
+                  of running. With invigorating trap AMVs as my backdrop, I
+                  venture into my runs, driven by the rhythm and energy. In
+                  addition to these pursuits, I have a sincere fondness for
+                  feline <i class="fa-solid fa-cat" /> companions. My love for
+                  cats is unmistakable, evident in my collection of numerous cat
+                  figurines. My affection extends beyond inanimate objects; I'm
+                  known to welcome every stray cat in my neighborhood into my
+                  care.
                 </Typography>
               </AccordionDetails>
             </Accordion>
             <Accordion
               expanded={expanded === "panel3"}
               onChange={handleChange("panel3")}
-              sx={{ backgroundColor: "#343434", color: 'white' }}
+              sx={{ backgroundColor: "#343434", color: "white" }}
             >
               <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
@@ -99,17 +109,21 @@ export default function Bio () {
               </AccordionSummary>
               <AccordionDetails>
                 <Typography>
-                  My goal for my future is to work as a backend web developer.
-                  Although I enjoy front end as well, and wouldn't mind going
-                  down that route as well. I also would like to get better at
-                  game development. I really want to make my own game one day,
-                  one like Hollow Knight. The team that made that game are a
-                  huge inspiration in my life. I plan to finish my degree soon,
-                  and continue my education to accomplish my goals. Currently I
-                  am an backend web developer intern for{" "}
-                  <i class="fa-solid fa-cookie" /> Danica's Custom Bakes. I
-                  would like to level up to a junior developer in the near
-                  future!
+                  My aspirations for the future center around becoming a
+                  proficient backend web developer. While I do find enjoyment in
+                  front-end development and could consider pursuing that avenue
+                  too, I'm also keen on enhancing my game development skills.
+                  The ultimate dream is to create a game similar to Hollow
+                  Knight, drawing inspiration from the incredible team behind
+                  its creation. Their work has deeply influenced me. In pursuit
+                  of these ambitions, I'm working towards completing my degree
+                  in the near term and continuing my educational journey to gain
+                  the necessary skills. Currently, I am gaining practical
+                  experience as a backend web developer intern at{" "}
+                  <i class="fa-solid fa-cookie" /> Danica's Custom Bakes. My aim
+                  is to progress to a junior developer role in the upcoming
+                  period, aligning with my continuous growth and pursuit of
+                  excellence.
                 </Typography>
               </AccordionDetails>
             </Accordion>
@@ -134,4 +148,4 @@ export default function Bio () {
       </Grid>
     </Container>
   );
-};
+}
